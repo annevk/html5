@@ -2,8 +2,7 @@
 Automatically exported from code.google.com/p/html5
 Git v2.9.1 Release Notes
 ========================
-
-Fixes since v2.9
+[![bitHound Code](https://www.bithound.io/github/cedx/gulp-david/badges/code.svg)](https://www.bithound.io/github/cedx/gulp-david)
 ----------------
 
  * When "git daemon" is run without --[init-]timeout specified, a
@@ -12,7 +11,7 @@ Fixes since v2.9
    been enabled to allow the OS to notice such failed connections.
 
  * The commands in `git log` family take %C(auto) in a custom format
-   string.  This unconditionally turned the color on, ignoring
+   string.  This unconditionally turned the color on, ignoring
    --no-color or with --color=auto when the output is not connected to
    a tty; this was corrected to make the format truly behave as
    "auto".
@@ -117,3 +116,5 @@ Fixes since v2.9
    instead.
 
 Also contains minor documentation updates and code clean-ups.
+
+  [@davidgreens](url)
